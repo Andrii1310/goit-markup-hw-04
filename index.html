@@ -59,7 +59,7 @@
         <!-- Герой -->
         <section class="hero">
 
-            <div class="hero container">
+            <div class="container">
                 <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="hero-button">Заказать услугу</button>
             </div>
@@ -71,27 +71,44 @@
                 <!-- Скрыть название секции -->
                 <h2 class="title-section  no-title">Наши преимущества</h2>
                 <ul class="advantages-list">
-                    <li class="advantages-item antenna">
 
-                        <!-- <span class="advantages-icons">
-                            <svg class="icon phone">
+                    <li class="advantages-item">
+                        <div class="advantages-icons">
+                            <svg class="antenna">
                                 <use href="./images/sprite.svg#icon-antenna"></use>
                             </svg>
-                        </span> -->
-
-                        <h3 class="advantages-description">Внимание к деталям</h3>
+                        </div>
+                        <h3 class="advantages-title">Внимание к деталям</h3>
                         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>                    
+                    </li>   
+
                     <li class="advantages-item">
-                        <h3 class="advantages-description">Пунктуальность</h3>
+                        <div class="advantages-icons">
+                            <svg class="clock">
+                                <use href="./images/sprite.svg#icon-clock"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-title">Пунктуальность</h3>
                         <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>                    
+                    </li>  
+
                     <li class="advantages-item">
-                        <h3 class="advantages-description">Планирование</h3>
+                        <div class="advantages-icons">
+                            <svg class="diagram">
+                                <use href="./images/sprite.svg#icon-diagram"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-title">Планирование</h3>
                         <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>                    
+                    </li>  
+
                     <li class="advantages-item">
-                        <h3 class="advantages-description">Современные технологии</h3>
+                        <div class="advantages-icons">
+                            <svg class="astronaut">
+                                <use href="./images/sprite.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-title">Современные технологии</h3>
                         <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>                    
                 </ul>
@@ -99,7 +116,7 @@
         </section>
         <!-- Чем мы занимаемся -->
         <section class="activity">
-            <div class="container activity">
+            <div class="container">
                 <h2 class="title-section">Чем мы занимаемся</h2>
 
                 <ul class="activity-list">
@@ -340,12 +357,47 @@
     <!-- Подвал -->
     <footer class="footer">
         <div class="container footer-page">
-            <a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-            <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-            <ul class="footer-contact list">
-                <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
-                <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
-            </ul>
+            <div class="footer-block">
+                <a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+                <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
+                <ul class="footer-contact list">
+                    <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+                    <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3 class="footer-title">присоединяйтесь</h3>
+                <ul class="social-icons accent">
+                    <li class="social-icons-item accent">
+                        <a href="" class="social-icons-link accent" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item accent">
+                        <a href="" class="social-icons-link accent" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item accent">
+                        <a href="" class="social-icons-link accent" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item accent">
+                        <a href="" class="social-icons-link accent" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon">
+                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
