@@ -70,8 +70,8 @@ img {
 
 /* Оформление heder */
 .header {
-   padding-top: 32px;
-   padding-bottom: 32px;
+   padding-top: 24px;
+   padding-bottom: 25px;
 }
 .logo {  
   display: inline-block;
